@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.fontLobster {
+      font-family: 'Lobster';
+      font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-variation-settings:
+         "wdth" 100,
+         "GRAD" 0;
+}
+
+.fontTajawal {
+     font-family: 'Tajawal';
+      font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-variation-settings:
+         "wdth" 100,
+         "GRAD" 0;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
