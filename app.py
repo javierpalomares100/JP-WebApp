@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 
 app = Flask(__name__)
 
@@ -37,6 +37,11 @@ PC = [
 @app.route("/")
 def JpApp():
   return render_template('home.html', pc=PC)
+
+@app.route("/pc")
+def list_pc():
+  return jsonify(PC)
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
