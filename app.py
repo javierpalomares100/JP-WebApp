@@ -36,7 +36,7 @@ PC = [
 
 @app.route("/")
 def JpApp():
-  return render_template('home.html', pc=PC)
+  return render_template('index.html', pc=PC)
 
 @app.route("/pc")
 def list_pc():
