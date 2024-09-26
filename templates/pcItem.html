@@ -1,16 +1,13 @@
-<div class="container border-bottom row" style="text-align: left; background-color: none; padding-top: 15px;"> 
-    <div class="col-9 justify-content-center">
-      <div><b>CPU:</b> <i>{{pc['cpu']}} </i></div>
-      <div><b>Motherboard:</b> <i>{{pc['motherboard']}} </i></div>
-       {% if 'memory' in pc %}
-      <div><b>Memory:</b> <i>{{pc['memory']}} </i></div>
-       {% endif %}
-      <div><b>Storage:</b> <i>{{pc['storage']}} </i></div>
-      <div><b>GPU:</b> <i>{{pc['gpu']}} </i></div>
-      <div><b>Case:</b> <i>{{pc['case']}} </i></div>
-      <div><b>PSU:</b> <i>{{pc['psu']}} </i></div>
-    </div>
-    <div class="col-3 justify-content-center">
-     <button type="button" class="btn btn-outline-primary">View</button>
-    </div>
- </div>
+<div class="child"> 
+  <div>
+    <div><b>CPU:</b> <i>{{pc['cpu']}} </i></div>
+    <div><b>Motherboard:</b> <i>{{pc['motherboard']}} </i></div>
+     <!--{% if 'memory' in pc %}-->
+    <div><b>Memory:</b> <i>{{pc['memory']}} </i></div>
+     <!--{% endif %}-->
+    <div><b>Storage:</b> <i>{{pc['storage']}} </i></div>
+    <div><b>GPU:</b> <i>{{pc['gpu']}} </i></div>
+    <div><b>Case:</b> <i>{{pc['case']}} </i></div>
+    <div><b>PSU:</b> <i>{{pc['psu']}} </i></div>
+  </div>
+</div>
