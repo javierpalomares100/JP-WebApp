@@ -1,3 +1,7 @@
+body {
+ background-color: #F0F0F0;
+}
+
 .responsive {
     width: 100%;
     height: auto;
@@ -24,8 +28,10 @@
   }
   
   .child {
-    background: #202020;
-    color: white;
+    /*background: #202020;*/
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #E8E8E8;
     width: 500px;
     float: left;
     margin: 1em;
@@ -55,6 +61,13 @@
     }
     .heading {
       font-size: 32px;
+    }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media (max-width: 600px) {
+    .child {
+      border-radius: 0 !important;
     }
   }
 
