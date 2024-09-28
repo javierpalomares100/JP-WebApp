@@ -1,2 +1,2 @@
 # JP-WebApp
-Web App using python &amp; mysql
+Web App using python &amp; mysql reading python list
